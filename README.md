@@ -178,6 +178,28 @@ F7 = (!(A & B) & !(C | D)) | (!(A | C) & B & D) Shown with inputs A=0, B=0, C=0,
 F8 = ((A XOR B) & (C XNOR D)) | (!(A | B) & C & E) | (A & B & !(D | F)) Shown with inputs A=0, B=0, C=1, D=0, E=1, F=0  ->  F8 = 1
 
 Screenshots:
+<img width="773" height="391" alt="image" src="https://github.com/user-attachments/assets/ef676fef-67c5-4852-9391-d0cd4501c6e9" />
+
+<img width="771" height="391" alt="image" src="https://github.com/user-attachments/assets/a3717de2-602b-408d-8a92-0dc7b0438041" />
+
+<img width="767" height="352" alt="image" src="https://github.com/user-attachments/assets/c1323179-317d-4a61-830a-8f8b28ce0dc2" />
+
+<img width="771" height="379" alt="image" src="https://github.com/user-attachments/assets/90dea7e8-cc9a-4602-afca-ccd45b9258a2" />
+
+<img width="769" height="381" alt="image" src="https://github.com/user-attachments/assets/df0fef9d-9520-4ba5-a3c4-e365465126b3" />
+
+<img width="770" height="415" alt="image" src="https://github.com/user-attachments/assets/5f233143-761f-4a34-9c52-4eba02d58704" />
+
+<img width="767" height="427" alt="image" src="https://github.com/user-attachments/assets/b10e5502-85f8-40ea-862a-dd370424581c" />
+
+<img width="769" height="381" alt="image" src="https://github.com/user-attachments/assets/2b2828ad-c416-46f3-ac92-eb5f94f5c752" />
+
+
+
+
+
+
+
 
 
 
