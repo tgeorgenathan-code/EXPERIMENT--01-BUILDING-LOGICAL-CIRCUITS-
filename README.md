@@ -161,7 +161,23 @@ For each circuit, record:
 - Functional equivalence before and after simplification
 
 ## 7. Expected Results (drop the screenshots of each equations circuit )
+F1 = (!A & B & C) | (A & B & !D) | (!B & C & D) | (A & !C & D) Shown with inputs A=0, B=0, C=1, D=1  ->  F1 = 1
 
+F2 = (A | !B | C) & (!A | B | D) & (B | !C | !D) Shown with inputs A=0, B=0, C=0, D=0  ->  F2 = 1
+
+F3 = !( ((!(A | B)) | (C & D)) & (A | (!(B | C))) ) Shown with inputs A=0, B=0, C=1, D=0  ->  F3 = 1
+
+F4 = ((A XOR B) & (C XNOR D)) | (!A & B & (C XOR D)) Shown with inputs A=0, B=1, C=0, D=0  ->  F4 = 1
+
+F5 = (A & B & !C) | (!A & D & E) | (B & C & !E) | (!B & C & D) Shown with inputs A=0, B=0, C=0, D=1, E=1  ->  F5 = 1
+
+F6 = ((A | B) & !(C | D)) | ((C XOR E) & (D | G)) | (!A & B & E) Shown with inputs A=0, B=0, C=0, D=0, E=1, G=1  ->  F6 = 1
+
+F7 = (!(A & B) & !(C | D)) | (!(A | C) & B & D) Shown with inputs A=0, B=0, C=0, D=0  ->  F7 = 1
+
+F8 = ((A XOR B) & (C XNOR D)) | (!(A | B) & C & E) | (A & B & !(D | F)) Shown with inputs A=0, B=0, C=1, D=0, E=1, F=0  ->  F8 = 1
+
+Screenshots:
 
 
 
